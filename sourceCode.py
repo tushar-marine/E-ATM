@@ -89,11 +89,11 @@ def callOTP():
 
 
     # Generate and Send OTP
-    account_sid = 'AC49ebed6f7a0afea5e102a515c51d35f6'
-    auth_token = '810036a00726c0ad4fdbd25f03a0d234'
+    account_sid = 'use a valid sid' # SID is being removed for security
+    auth_token = 'use a valid token' # Token is being removed for security
     client = Client(account_sid, auth_token)
     otp = random.randint(100000, 999999)
-    #mobile = '+8801736783656'
+    #mobile = '+88017xxxxxxxxx' # Number is being removed for security
     sms = client.messages.create(
         body='Please enter this OTP to continue. Your OTP is - ' + str(otp),
         from_='+12019037061',
