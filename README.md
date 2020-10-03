@@ -8,10 +8,42 @@ With advances in Machine Learning and Computer Vision, distinguish a human face 
 In the above context, the main objectives of this research project are to add a new layer of security over the existing ATM system without any existing hardware changes such that transactions will not only depend on the correct PIN of a card but also the person performing the transaction.
 # 3.	Rationale
 This following three main research questions can be raised in this research proposal:
-   i.	How ATM will be distinguished original account holder from others?
-  ii.	What if ATM could not identify the original account holder?
- iii.	What are the consequences if others try to access the ATM?
+
+i.	How ATM will be distinguished original account holder from others?
+ii.	What if ATM could not identify the original account holder?
+iii.	What are the consequences if others try to access the ATM?
+
 Upon completion of this research, all the financial institutions, providing ATM services, will be able to ensure a much safer environment for their clients. Also, the rate of ATM card fraud in Bangladesh will lessen.  
 # 4.	Methodology
-The human face will be identified using the Histogram of Oriented Gradients (HOG) method. Affine transformation of the face will be done using the dlib library. A Deep Convolutional Neural Network (Deep CNN) will be trained to get unique measurements from the human face (128 different measurement from a single face), and Support Vector Machine (SVM) for face classification (identification).
+The human face is identified using the Histogram of Oriented Gradients (HOG) method. Affine transformation of the face is done using the dlib library. A Deep Convolutional Neural Network (Deep CNN) is trained to get unique measurements from the human face (128 different measurement from a single face), and Support Vector Machine (SVM) for face classification (identification).
 
+# Tools to develop the project:
+Programming Language: Python 3
+
+Database: SQLite 3
+
+Code Editor: Pycharm 2020.2
+
+# Python Dependencies:  
+opencv-python (3.4.6.27)
+
+numpy (1.19.1)
+
+cmake (3.18.2)
+
+dlib (19.18.0)
+
+face-recognition (1.3.0)
+
+twilio (6.45.3)
+
+tkinter (8.6)
+
+# Hardware for Simulation:  
+Raspberry Pi 4
+
+USB Generic Webcam
+
+Numeric Pad (USB)
+
+7” HD TFT Color Monitor
