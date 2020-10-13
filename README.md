@@ -37,11 +37,19 @@ The human face is identified using the Histogram of Oriented Gradients (HOG) met
 * 7” HD TFT Color Monitor
 # 5.	Demo
 ![](images/0.JPG)
+
 ![](images/1.JPG)
+
 ![](images/2.JPG)
+
 ![](images/4.JPG)
+
 ![](images/5.JPG)
+
 ![](images/6.JPG)
-![](images/7.JPG)
+
+![](images/7.jpg)
+
 ![](images/3.JPG)
+
 ![](images/Final.jpg)
