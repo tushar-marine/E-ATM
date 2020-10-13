@@ -8,10 +8,9 @@ With advances in Machine Learning and Computer Vision, distinguish a human face 
 In the above context, the main objectives of this research project are to add a new layer of security over the existing ATM system without any existing hardware changes such that transactions will not only depend on the correct PIN of a card but also the person performing the transaction.
 # 3.	Rationale
 This following three main research questions can be raised in this research proposal:
-
-i.	How ATM will be distinguished original account holder from others?
-ii.	What if ATM could not identify the original account holder?
-iii.	What are the consequences if others try to access the ATM?
+*i.	How ATM will be distinguished original account holder from others?
+*ii.	What if ATM could not identify the original account holder?
+*iii.	What are the consequences if others try to access the ATM?
 
 Upon completion of this research, all the financial institutions, providing ATM services, will be able to ensure a much safer environment for their clients. Also, the rate of ATM card fraud in Bangladesh will lessen.  
 # 4.	Methodology
